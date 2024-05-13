@@ -1,0 +1,39 @@
+.component-five{
+    width: 100%;
+    display: flex;
+    padding: 3em 0;
+    justify-content: center;
+}
+.inside-component-five{
+    width: 80%;
+}
+.text-area-two{
+    width: 100%;
+    h2{
+        font-size: 27px;
+        width: 45%;
+        font-weight: 600;
+        line-height: 32px;
+        color: rgb(51, 51, 51);
+    }
+}
+.images-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-row{
+    padding: 1em 0;
+    width: 90%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    width: 20%;
+    img{
+        width: 90%;
+    }
+}

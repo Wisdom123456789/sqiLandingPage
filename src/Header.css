@@ -1,0 +1,59 @@
+.Heading{
+    width: 100%;
+    padding: 5px 0;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    border-bottom: 1px solid lightgray;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+.inside-header{
+    width: 80%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.sqi-logo{
+    width: 6%;
+    img{
+        width: 100%;
+    }
+}
+.nav{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.drop-down-general{
+    position: relative;
+    a{
+        text-decoration: none;
+        display: flex;
+        gap: 5px;
+        font-size: 15px;
+        font-weight: 700; 
+        color: rgb(8,31,137);
+    }
+}
+.drop-down-general:hover .drop-down{
+    display: block;
+}
+.drop-down{
+    display: none;
+}
+.drop-down{
+    background-color: white;
+    box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.5);
+    border-top: 4px solid rgb(8,31,137);
+    position: absolute;
+    width: 150px;
+    top: 198%;
+    padding: 0.5em 1.5em;
+}

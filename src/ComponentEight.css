@@ -1,0 +1,61 @@
+.component-eight{
+    width: 100%;
+    display: flex;
+    padding: 4.5em 0;
+    justify-content: center;
+}
+.inside-component-eight{
+    width: 80%;
+    display: flex;
+}
+.left-side-component-eight{
+    width: 70%;
+}
+.top-component-eight{
+    padding: 2em 0;
+    width: 100%;
+    h2{
+        color: rgb(51, 51, 51);
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 45px;
+        font-family: sans-serif;
+    }
+}
+.bottom-component-eight{
+    width: 100%;
+}
+.row-component-eight{
+    display: flex;
+    justify-content: space-between;
+}
+.each-container-component-eight{
+    width: 47%;
+    padding: 1.5em 0;
+}
+.icon-section{
+    width: 100%;
+    padding: 1.5em 0;
+}
+.text-component-eight{
+    width: 100%;
+    h3{
+        font-size: 20px;
+        line-height: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        padding: 0 0 10px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 23px;
+        color: rgb(102, 102, 102);
+        font-weight: 500;
+    }
+}
+.right-side-component-eight{
+    width: 30%;
+    background-image: url("./images/conference_image_15.jpg");
+    background-size: cover;
+    background-position: right;
+}

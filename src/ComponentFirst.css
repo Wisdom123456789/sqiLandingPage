@@ -1,0 +1,50 @@
+.compontent-one{
+    width: 100%;
+    padding: 5em 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+.inside-component-one{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-area-global{
+    width: 45%;
+    h1{
+        font-size: 64px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 70.4px;
+        color: rgb(0, 14, 66);
+    }
+    p{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+        padding: 0.5em 0;
+        color: rgb(71, 71, 71);
+    }
+    .Start-now-link{
+        width: 100%;
+        padding: 2em 0;
+        a{
+            padding: 16px 32px;
+            background-color: violet;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 23px;
+            font-weight: 600;
+            background-color: rgb(0, 32, 138);
+            color: white;
+        }
+    }
+}
+.image-side{
+    width: 48%;
+    img{
+        width: 100%;
+    }
+}

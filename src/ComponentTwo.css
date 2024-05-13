@@ -1,0 +1,50 @@
+.component-two{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inside-componetn-two{
+    width: 80%;
+    h2{
+        font-size: 42px;
+        font-weight: 600;
+        padding: 1em 0;
+        line-height: 50px;
+        color: rgb(5, 7, 84);
+    }
+}
+.learn-more{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.inside-learn-more{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    img{
+        width: 100%;
+        filter: grayscale(12);
+    }
+    h3{
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 700;
+        color: rgb(0, 14, 84);
+    }
+    p{
+        font-size: 14px;
+        line-height: 23px;
+        font-weight: 500;
+        color: rgb(102, 102, 102);
+    }
+    .link{
+        a{
+            font-size: 16px;
+            line-height: 27px;
+            font-weight: 500;
+            padding: 4.8px 0;
+        }
+    }
+}
